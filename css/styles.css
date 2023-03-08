@@ -1,7 +1,7 @@
 @import url('/css/reset.css');
 @import url('/components/navbar/navbar.css');
 @import url('/components/footer/footer.css');
-/* @import url('/components/retractable-menu/retractable-menu.css'); */
+@import url('/components/retractable-menu/retractable-menu.css');
 
 /*Carrossel*/
 * {
@@ -19,8 +19,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  /*max-width: 1000px;*/
-  width: 1000px;
+  max-width: 1000px;
   max-height: 700px;
   position: relative;
   margin: auto;
