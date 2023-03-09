@@ -1,7 +1,7 @@
-@import url('../css/reset.css');
-@import url('../components/navbar/navbar.css');
-@import url('../components/footer/footer.css');
-@import url('../components/retractable-menu/retractable-menu.css');
+@import url('/css/reset.css');
+@import url('/components/navbar/navbar.css');
+@import url('/components/footer/footer.css');
+@import url('/components/retractable-menu/retractable-menu.css');
 
 /*Carrossel*/
 * {
