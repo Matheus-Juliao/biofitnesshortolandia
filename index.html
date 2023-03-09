@@ -1,35 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Título da página -->
-        <meta title="Bio Fitness">
-        <!-- Tag de pesquisa na web -->
-        <meta name="description" content="Academia Bio Fitness Hortolândia">
-        <!-- Autor -->
-        <meta name="author" content="Matheus José Julião e Adriano Pinheiro Martins">
-        <!-- Tag de pesquisa para palavras chaves na web -->
-        <meta name="keywords" content="Academia, Bio Fitness Hortolândia">
-
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
-        <!--Bootstrap Fontawesome -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!--Importação style.css -->
-        <link rel="stylesheet" href="css/styles.css">
-
-        <title>Bio Fitness</title>
-    </head>
+    <head include-html="head.html"></head>
     <body>
-        <header id="retractable-menu" include-html="components/retractable-menu/retractable-menu.html"></header>
-        <nav id="navbar" class="navbar" include-html="components/navbar/navbar.html"></nav>
+        <header id="retractable-menu" include-html="retractable-menu.html"></header>
+        <nav id="navbar" class="navbar" include-html="navbar.html"></nav>
         <main>
             <div class="slideshow-container">
-
                 <div class="mySlides fade">
                   <img src="images/carousel/academia-3.jpg" alt="Planos Bio Fitness" style="width:100%">
                 </div>
@@ -47,11 +23,10 @@
                     <span class="dot"></span> 
                     <span class="dot"></span> 
                 </div>
-                
             </div>
         </main>
 
-        <footer include-html="components/footer/footer.html"></footer>
+        <footer include-html="footer.html"></footer>
     </body>
 
     <script src="js/index.js"></script>
