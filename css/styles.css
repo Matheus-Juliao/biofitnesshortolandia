@@ -4,6 +4,10 @@
 @import url('../css/footer.css');
 @import url('../css/contacts.css');
 
+.body-index {
+  background: linear-gradient(#fefefe, #88888866);
+}
+
 /*Carrossel*/
 * {
   box-sizing: border-box;
@@ -49,7 +53,7 @@ img {
 
 .dots {
   text-align: center;
-  margin-bottom: 20px;
+  margin: 15px 0 20px;
 }
 
 /* The dots/bullets/indicators */
@@ -81,4 +85,29 @@ img {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+/*Localization*/
+.section-localization {
+  margin-bottom: 100px;
+}
+
+.localization {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.title-localization {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 0 1rem;
+  color: #333;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 950px) {
+  .localization {
+    margin: 5px 5px;
+  }
 }
