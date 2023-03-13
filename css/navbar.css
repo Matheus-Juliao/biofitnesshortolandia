@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: var(--primary-color);
 }
   
 .navbar li {
@@ -18,7 +18,7 @@
   
 .navbar li a {
   display: block;
-  color: #eff35e;
+  color: var(--second-text-color);
   text-align: center;
   padding: 19px 16px;
   text-decoration: none;
@@ -28,12 +28,12 @@
   
 .navbar li a:hover:not(.active) {
   background-color: #111;
-  color: #eff35e !important;
+  color: var(--second-text-color) !important;
 }
   
 .active a {
-  color: #333 !important;
-  background-color: #eff35e
+  color: var(--primary-text-color) !important;
+  background-color: var(--second-color);
 }
 
 @media screen and (max-width: 950px) {
