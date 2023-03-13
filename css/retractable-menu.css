@@ -14,7 +14,7 @@ input:checked~label .hamburguer:after {
 
 /* cabeçalho fixo */
 .menu {
-    background: #333;
+    background: var(--primary-color);
     width: 100%;
     /* height: 17px; */
     padding: 30px 0;
@@ -46,13 +46,12 @@ input:checked~label .hamburguer:after {
 }
 
 .bar {
-    background-color: #ffffff;
+    background-color: var(--primary-color);
     height: 88%;
     width: 300px;
     position: fixed;
     transition: all .2s linear;
     left: -300px;
-    margin-top: 55px;
     z-index: 1;
     justify-content: center;
     border-radius: 3px;
@@ -84,26 +83,25 @@ nav a {
 }
 
 .link {
-    padding: 20px 10px 5px 15px;
+    padding: 20px 10px 20px 15px;
     font-size: 16px;
     transition: all .3s linear;
-    padding-left: 15px;
 }
 
 .themes {
     margin-left: 25px;
     margin-top: -15.5px;
     position: relative;
-    color: #333;
+    color: var(--second-text-color);
 }
 
 .icon-menu {
     position: relative;
-    color: #333;
+    color: var(--second-text-color);
 }
 
 .link:hover {
-    background-color: #e0e0e0;
+    background-color: #111;
     color: #546e7a;
 }
 
@@ -129,7 +127,7 @@ nav a {
 .hamburguer {
     position: relative;
     display: block;
-    background: #eff35e;
+    background: var(--second-color);
     width: 30px;
     height: 3px;
     top: 29px;
@@ -138,7 +136,7 @@ nav a {
 }
 
 .hamburguer:before,.hamburguer:after {
-    background: #eff35e;
+    background: var(--second-color);
     content: '';
     display: block;
     width: 100%;

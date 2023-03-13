@@ -3,9 +3,11 @@
 @import url('../css/retractable-menu.css');
 @import url('../css/footer.css');
 @import url('../css/contacts.css');
+@import url('../css/variables.css');
 
 .body-index {
-  background: linear-gradient(#fefefe, #88888866);
+  /* background: linear-gradient(#fefefe, #88888866); */
+  background: linear-gradient(to top, #121212, #a3a2a2);
 }
 
 /*Carrossel*/
@@ -88,6 +90,17 @@ img {
 }
 
 /*Localization*/
+.card {
+  background-color: #ffffff;
+  padding:1rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%) ;
+  border-radius: 5px;
+  max-width: 940px;
+
+}
+
 .section-localization {
   margin-bottom: 100px;
 }
@@ -101,8 +114,7 @@ img {
   text-align: center;
   font-size: 2rem;
   margin: 0 0 1rem;
-  color: #333;
-  font-style: italic;
+  color: var(--primary-text-color);
   font-family: 'Times New Roman', Times, serif;
 }
 
