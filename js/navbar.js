@@ -19,6 +19,8 @@ const myInterval = setInterval(() =>  {
 
             case pathname.includes('/contacts.html'): active('.contacts');
             break;
+
+            default: clearInterval(myInterval);
         }
     }
     else {
