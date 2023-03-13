@@ -28,10 +28,12 @@
   
 .navbar li a:hover:not(.active) {
   background-color: #111;
+  color: #eff35e !important;
 }
   
-.navbar .active {
-  background-color: #04AA6D;
+.active a {
+  color: #333 !important;
+  background-color: #eff35e
 }
 
 @media screen and (max-width: 950px) {
