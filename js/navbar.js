@@ -1,23 +1,22 @@
 const myInterval = setInterval(() =>  { 
     if(window.innerWidth > 950) {
-        let pathname = window.location.pathname
-        switch(true) {
-            case pathname.includes('/index.html'): active('.index');
+        switch(window.location.pathname) {
+            case '/index.html': active('.index');
             break;
 
-            case pathname.includes('/plans.html'): active('.plans');
+            case'/plans.html': active('.plans');
             break;
 
-            case pathname.includes('/about.html'): active('.about');
+            case'/about.html': active('.about');
             break;
 
-            case pathname.includes('/supplements-store.html'): active('.supplements-store');
+            case'/supplements-store.html': active('.supplements-store');
             break;
 
-            case pathname.includes('/digital-showcase.html'): active('.digital-showcase');
+            case'/digital-showcase.html': active('.digital-showcase');
             break;
 
-            case pathname.includes('/contacts.html'): active('.contacts');
+            case'/contacts.html': active('.contacts');
             break;
         }
     }
