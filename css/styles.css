@@ -122,4 +122,13 @@ img {
   .localization {
     margin: 5px 5px;
   }
+
+  .card {
+    margin: 0px 35px 0 35px;
+  }
+
+  footer p {
+    margin-top: 15px;
+    font-size: 12px;
+  }
 }
