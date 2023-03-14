@@ -16,7 +16,6 @@ input:checked~label .hamburguer:after {
 .menu {
     background: var(--primary-color);
     width: 100%;
-    /* height: 17px; */
     padding: 30px 0;
     position: fixed;
     top: 0;
@@ -56,7 +55,6 @@ input:checked~label .hamburguer:after {
     justify-content: center;
     border-radius: 3px;
     box-shadow: 0px 1px 3px 0px rgb(43 59 93 / 40%);
-    overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -102,7 +100,6 @@ nav a {
 
 .link:hover {
     background-color: #111;
-    color: #546e7a;
 }
 
 #check:checked~.bar {
@@ -173,6 +170,11 @@ nav a {
     display: none;
 }
 
+.retractable {
+    border: 1px solid var(--second-color);
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 950px) {
     #retractable-menu {
       display: block;
@@ -181,4 +183,4 @@ nav a {
     body {
         padding-top: 60px;
     }
-  }
+}
