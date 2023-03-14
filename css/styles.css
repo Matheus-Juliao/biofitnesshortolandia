@@ -75,6 +75,7 @@ img {
 
 .img-c-oh {
   margin: 0 auto;
+  padding: 1rem;
 }
 
 .active {
@@ -138,5 +139,17 @@ img {
   footer p {
     margin-top: 15px;
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 546px) {
+
+  .img-oh {
+    max-width: 85vw; 
+    margin-bottom: 2rem;
+  }
+
+  .img-c-oh {
+    text-align: -webkit-center;
   }
 }
