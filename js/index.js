@@ -21,8 +21,8 @@ function showSlides() {
 
 let showEffects = true
 
-function effects() {
-  let card = document.getElementsByClassName("card")[0];
+function effectsIndex() {
+  let card = document.getElementsByClassName("card-index")[0];
   let container = document.getElementsByClassName("container-arrow")[0];
 
   if(showEffects) {
