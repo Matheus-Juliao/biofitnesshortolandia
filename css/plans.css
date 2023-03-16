@@ -1,4 +1,4 @@
-.card {
+.card-plans {
   border: 1px solid rgb(87, 87, 87);
   margin: 10px auto 70px auto;
   transition: 0.4s;
@@ -7,7 +7,7 @@
   margin-bottom: 70px;
 }
 
-.card:hover {
+.card-plans:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
