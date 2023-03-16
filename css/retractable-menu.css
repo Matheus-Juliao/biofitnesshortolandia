@@ -20,7 +20,7 @@ input:checked~label .hamburguer:after {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 5;
 }
 
 #logo {
@@ -39,7 +39,7 @@ input:checked~label .hamburguer:after {
     cursor: pointer;
     padding: 18px;
     position: fixed;
-    z-index: 2;
+    z-index: 6;
     top: 17px;
     left: 19px;
 }
@@ -51,7 +51,7 @@ input:checked~label .hamburguer:after {
     position: fixed;
     transition: all .2s linear;
     left: -300px;
-    z-index: 1;
+    z-index: 5;
     justify-content: center;
     border-radius: 3px;
     box-shadow: 0px 1px 3px 0px rgb(43 59 93 / 40%);
@@ -118,7 +118,7 @@ nav a {
     position: fixed;
     top:0px;
     left: 10px;
-    z-index: 1;
+    z-index: 5;
 }
 
 .hamburguer {
@@ -155,7 +155,7 @@ nav a {
     left: 70px;
     top: 9px;
     height: 45px;
-    z-index: 1;
+    z-index: 5;
 }
 
 .right-side-info {
@@ -163,7 +163,7 @@ nav a {
     right: 30px;
     top: -85px;
     height: 220px;
-    z-index: 1;
+    z-index: 5;
 }
 
 #retractable-menu{
