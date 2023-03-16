@@ -1,0 +1,97 @@
+.card-plans {
+  border: 1px solid rgb(87, 87, 87);
+  margin: 10px auto 70px auto;
+  transition: 0.4s;
+  min-width: 540px;
+  max-width: 650px;
+  margin-bottom: 70px;
+}
+
+.card-plans:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.table-plans-title td {
+  /* border: 1px solid rgb(87, 87, 87); */
+  font-size: 150%;
+  width: 20%;
+}
+
+.table-values {
+  font-size: 150%;
+  text-align: center;
+  color: rgb(77, 77, 77);
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.table-values td {
+  padding: 10px;
+}
+
+.table-month {
+  font-size: 150%;
+  text-align: center;
+}
+
+.table-month td:nth-child(odd) { 
+	background:#f1df95;
+}
+
+.table-values td:nth-child(odd) { 
+	background:#f1df95;
+}
+
+.table-values td:nth-child(even) { 
+	background:#eff35e;
+}
+
+.table-month td:nth-child(even) { 
+	background:#eff35e;
+}
+
+.tipo {
+  font-size: 150%;
+  font-weight: bold;
+  width: 20%;
+  color: rgb(77, 77, 77);
+  padding: 10px;
+}
+
+.table-plans td {
+  border: 1px solid rgb(87, 87, 87);
+}
+
+.checkmark {
+  font-size: 150%;
+  color: rgb(5, 173, 5);
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+/* .button {
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+    background-color: #15c51b;
+    border-radius: 10px;
+    box-shadow: 0 9px #cdcdcd;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    font-weight: bolder;
+    width: 20%;
+} */
+
+@media screen and (max-width: 950px) {
+  .card {
+    margin-top: 70px;
+  }
+}
