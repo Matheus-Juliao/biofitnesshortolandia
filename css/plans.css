@@ -1,5 +1,10 @@
+
+.body-plans {
+  background: linear-gradient(to top, #121212, #a3a2a2);
+}
+
 .card-plans {
-  border: 1px solid rgb(87, 87, 87);
+  border: 0px solid rgb(180, 180, 180);
   margin: 10px auto 70px auto;
   transition: 0.4s;
   min-width: 540px;
@@ -7,12 +12,11 @@
   margin-bottom: 70px;
 }
 
-.card-plans:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.shadow-table {
+  box-shadow: 0px -80px 25px 25px rgba(0,0,0,0.2);
 }
 
 .table-plans-title td {
-  /* border: 1px solid rgb(87, 87, 87); */
   font-size: 150%;
   width: 20%;
 }
@@ -22,7 +26,6 @@
   text-align: center;
   color: rgb(77, 77, 77);
   font-weight: bold;
-  padding-top: 10px;
 }
 
 .table-values td {
@@ -32,6 +35,7 @@
 .table-month {
   font-size: 150%;
   text-align: center;
+  font-weight: 200;
 }
 
 .table-month td:nth-child(odd) { 
@@ -54,12 +58,14 @@
   font-size: 150%;
   font-weight: bold;
   width: 20%;
-  color: rgb(77, 77, 77);
+  color: rgb(243, 243, 243);
   padding: 10px;
+  text-align: right;
 }
 
 .table-plans td {
-  border: 1px solid rgb(87, 87, 87);
+  border: 1px solid rgb(71, 71, 71);
+ 
 }
 
 .checkmark {
@@ -68,30 +74,28 @@
   font-weight: bold;
   text-align: center;
   vertical-align: middle;
-  
 }
 
-/* .button {
-    display: inline-block;
-    padding: 15px 25px;
-    cursor: pointer;
-    text-align: center;	
-    text-decoration: none;
-    outline: none;
-    color: #000000;
-    background-color: #15c51b;
-    border-radius: 10px;
-    box-shadow: 0 9px #cdcdcd;
-    font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    font-weight: bolder;
-    width: 20%;
-} */
+.button-plans td:nth-child(n+2):nth-child(-n+6) {
+  padding: 10px 0 10px 15px;
+}
+
+.body-plans button {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #15c51b;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: bolder;
+  height: 35px;
+}
+
+.button:hover {
+  background-color: #a5c515;
+}
 
 @media screen and (max-width: 950px) {
-  .card {
-    margin-top: 70px;
+  .card-plans {
+    margin-top: 20px;
   }
 }
