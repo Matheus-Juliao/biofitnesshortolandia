@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt">
     <head include-html="head.html"></head>
-    <body>
+    <body class="body-contacts">
         <header id="retractable-menu" include-html="retractable-menu.html"></header>
         <nav id="navbar" class="navbar" include-html="navbar.html"></nav>
         <main>
-
+            <div class="card-contacts">
+                <form id="fs-frm" data-form name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xdovlgoz" method="post" >
+                    <div class="form">
+                        <fieldset id="fs-frm-inputs">
+                            <legend class="legend">Dados para contato</legend>
+                            <label for="full-name">Nome completo</label>
+                            <input type="text" name="name" id="full-name" placeholder="Primeiro e último" required="">
+                            <label for="email-address">Endereço de email</label>
+                            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                            <label for="message">Mensagem</label>
+                            <textarea rows="5" name="message" id="message" required=""></textarea>
+                            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                        </fieldset>
+                        <input id="submit" type="submit" value="ENVIAR">
+                    </div>
+                </form>
+            </div>
         </main>
-
         <footer include-html="footer.html"></footer>
     </body>
 
     <script src="js/include-html.js"></script>
     <script src="js/navbar.js"></script>
+    <script src="js/contacts.js"></script>
 </html>
