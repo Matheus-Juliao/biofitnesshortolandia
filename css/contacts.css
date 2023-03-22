@@ -120,24 +120,24 @@
 }
 
 .card-contacts {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    padding: 20px;
-    background-color: #eceff6;
-    max-width: 1000px;
-    min-height: 800px;
-    margin: 20px auto;
-    border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 20px;
+  background-color: #eceff6;
+  max-width: 1000px;
+  min-height: 800px;
+  margin: 20px auto;
+  border-radius: 5px;
 }
 
 .body-contacts {
-    background: linear-gradient(to top, #121212, #a3a2a2);
+  background: linear-gradient(to top, #121212, #a3a2a2);
 }
 
 #fs-frm .form {
-    min-height: 780px;
+  min-height: 780px;
 }
 
 #fs-frm legend {
-    font-size: 18px;
+  font-size: 18px;
 }
