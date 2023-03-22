@@ -5,6 +5,7 @@
 @import url('../css/contacts.css');
 @import url('../css/plans.css');
 @import url('../css/variables.css');
+@import url('../css/thanks.css');
 
 .body-index {
   background: linear-gradient(to top, #121212, #a3a2a2);
