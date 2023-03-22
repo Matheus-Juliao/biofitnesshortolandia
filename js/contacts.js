@@ -18,7 +18,7 @@ function redirectFunction(){
     .then((response) => response.json())
     .then((data) => {
         console.log("Success:", data);
-        window.location.href = "/thanks.html";
+        window.location.href = "thanks.html";
     })
     .catch((error) => {
         console.error("Error:", error);
