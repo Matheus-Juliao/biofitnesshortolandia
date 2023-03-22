@@ -19,6 +19,9 @@ function showSlides() {
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 
+let audio = document.getElementById("audio");
+audio.volume = 0.1;
+
 let showEffects = true
 
 function effectsIndex() {
