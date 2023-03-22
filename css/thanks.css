@@ -1,0 +1,62 @@
+.card-thanks {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 20px;
+    background-color: #eceff6;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-thanks h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.card-thanks p {
+    margin-bottom: 40px;
+}
+
+.back-thanks {
+    width: 200px;
+    height: 40px;
+    background: var(--primary-color);
+    font-weight: 500;
+    border-radius: 8px;
+    color: var(--second-text-color);
+    cursor: pointer;
+}
+
+.back-thanks:hover {
+    background: var(--second-text-color) !important;
+    color: var(--primary-color) !important;
+}
+
+.home-thanks {
+    width: 200px;
+    height: 40px;
+    background: var(--primary-color);
+    font-weight: 500;
+    border-radius: 8px;
+    color: var(--second-text-color);
+    cursor: pointer;
+}
+
+.home-thanks:hover {
+    background: var(--second-text-color) !important;
+    color: var(--primary-color) !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .card-thanks {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    .home-thanks {
+        margin-top: 10px;
+    }
+}
