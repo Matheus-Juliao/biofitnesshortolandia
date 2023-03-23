@@ -73,19 +73,20 @@
   padding: 10px 0 10px 15px;
 }
 
-.body-plans button {
+.card-plans div button {
   cursor: pointer;
-  color: #ffffff;
-  background-color: #15c51b;
-  border-radius: 10px;
-  font-size: 12px;
-  font-weight: bolder;
-  height: 35px;
-  
+  width: 90px;
+  height: 40px;
+  margin-top: 10px;
+  background: var(--primary-color);
+  font-weight: 600;
+  border-radius: 8px;
+  color: var(--second-text-color);
 }
 
-.button:hover {
-  background-color: #a5c515;
+.card-plans div button:hover {
+  background: var(--second-text-color) !important;
+  color: var(--primary-color) !important;
 }
 
 @media screen and (max-width: 950px) {
