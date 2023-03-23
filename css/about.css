@@ -1,0 +1,44 @@
+.body-about {
+    background: linear-gradient(to top, #121212, #e5e2e2);
+}
+
+.about-mvv {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.about-mvv h1 {
+    padding: 10px ;
+}
+
+.body-about div p {
+    font-size: 16px;
+}
+
+.motivational {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.motivational h1 {
+    color: #bcbc1e;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.motivational img {
+    width: 200px;
+    height: 50px;
+}
+
+.motivational iframe {
+    min-width: 500px;
+    min-height: 295px;
+}
+
+@media screen and (max-width: 510px) {
+    .motivational iframe {
+        min-width: 280px;
+        min-height: 75px;
+    }
+}
