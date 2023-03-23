@@ -10,10 +10,12 @@
   min-width: 540px;
   max-width: 650px;
   margin-bottom: 70px;
+  text-align: center;
 }
 
 .shadow-table {
   box-shadow: 0px -80px 25px 25px rgba(0,0,0,0.2);
+  width: 800px;
 }
 
 .table-plans-title td {
@@ -21,14 +23,14 @@
   width: 20%;
 }
 
-.table-values {
+.plans-type {
   font-size: 150%;
   text-align: center;
   color: rgb(77, 77, 77);
   font-weight: bold;
 }
 
-.table-values td {
+.plans-type td {
   padding: 10px;
 }
 
@@ -42,11 +44,11 @@
 	background:#f1df95;
 }
 
-.table-values td:nth-child(odd) { 
+.plans-type td:nth-child(odd) { 
 	background:#f1df95;
 }
 
-.table-values td:nth-child(even) { 
+.plans-type td:nth-child(even) { 
 	background:#eff35e;
 }
 
@@ -65,15 +67,6 @@
 
 .table-plans td {
   border: 1px solid rgb(71, 71, 71);
- 
-}
-
-.checkmark {
-  font-size: 150%;
-  color: rgb(5, 173, 5);
-  font-weight: bold;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .button-plans td:nth-child(n+2):nth-child(-n+6) {
@@ -88,6 +81,7 @@
   font-size: 12px;
   font-weight: bolder;
   height: 35px;
+  
 }
 
 .button:hover {
