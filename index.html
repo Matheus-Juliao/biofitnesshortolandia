@@ -8,13 +8,13 @@
             <section>
               <div class="slideshow-container">
                   <div class="mySlides fade">
-                    <img src="images/carousel/academia-3.jpg" alt="Planos Bio Fitness" style="width:100%">
-                  </div>
-                  <div class="mySlides fade">
                     <img src="images/carousel/academia-2.jpg" alt="Acessórios Bio Fitness" style="width:100%">
                   </div>
                   <div class="mySlides fade">
                     <img src="images/carousel/academia-1.jpg" alt="Foto da academia Bio Fitness" style="width:100%">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/carousel/gympass.jpg" alt="Gympass Bio Fitness" style="width:100%">
                   </div>
   
                   <div class="dots">
@@ -23,21 +23,36 @@
                       <span class="dot"></span> 
                   </div>
               </div>
+
+              <div class="audio-index">
+                <audio controls autoplay loop id="audio">
+                  <source src="audio/BackingDownBrysonPriceRemix.mp3" type="audio/mp3">
+                </audio>
+              </div>
+
             </section>
 
             <section class="section-localization">
-              <div class="card">
-                <h3 class="title-localization">Nosso endereço</h3>
-    
                 <div class="localization">
+                  <div class="card-index">
+                    <h1 class="andress">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i> R. Joaquim Jerônimo da Silva, 180 - &#013 Jardim Carmen Cristina, Hortolândia - SP, 13184-693
+                    </h1>
+                    <div class="container-arrow" onclick="effectsIndex()">
+                        <div class="chevron"></div>
+                        <div class="chevron"></div>
+                        <div class="chevron"></div>
+                        <p>Abrir mapa</p>
+                    </div>
+                  </div>
                   <iframe title="Google Maps"src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14705.173566395737!2d-47.1990533!3d-22.8656179!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b9fabbdb6893%3A0xd183f1df567b0406!2sAcademia%20Bio%20Fitness%20Hortol%C3%A2ndia!5e0!3m2!1spt-BR!2sbr!4v1678540820050!5m2!1spt-BR!2sbr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-              </div>
             </section>
 
             <section class="contacts-us-opening-hours">
               <div class="img-c-oh">
-                <img src="images/informations.png" alt="informations">
+                <img class="img-oh" src="images/opening-hours.png" alt="informations">
+                <a onclick="callWhatssap()" ><img class="img-c" src="images/contacts-us.png" title="Ir para o WhatsApp" alt="Ir para o WhatsApp"></a>
               </div>
             </section>
         </main>
