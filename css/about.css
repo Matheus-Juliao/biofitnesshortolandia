@@ -1,0 +1,32 @@
+.body-about {
+    background: linear-gradient(to top, #121212, #c4c3c3);
+}
+
+.about-mvv {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.about-mvv h1 {
+    padding: 10px ;
+}
+
+.body-about p {
+    font-size: 16px;
+}
+
+.motivational {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.motivational h1 {
+    color: #bcbc1e;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.motivational img {
+    width: 200px;
+    height: 50px;
+}
