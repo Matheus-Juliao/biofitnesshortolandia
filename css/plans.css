@@ -8,14 +8,15 @@
   margin: 10px auto 70px auto;
   transition: 0.4s;
   min-width: 540px;
-  max-width: 650px;
+  /* max-width: 650px; */
   margin-bottom: 70px;
-  text-align: center;
+  text-align: -webkit-center;
 }
 
 .shadow-table {
   box-shadow: 0px -80px 25px 25px rgba(0,0,0,0.2);
   width: 800px;
+  text-align: center;
 }
 
 .table-plans-title td {
