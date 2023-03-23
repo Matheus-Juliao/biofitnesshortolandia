@@ -38,7 +38,21 @@
 
 @media screen and (max-width: 510px) {
     .motivational iframe {
-        min-width: 280px;
-        min-height: 75px;
+        min-width: 400px;
+        min-height: 195px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .motivational iframe {
+        min-width: 380px;
+        min-height: 175px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .motivational iframe {
+        min-width: 328px;
+        min-height: 182px;
     }
 }
