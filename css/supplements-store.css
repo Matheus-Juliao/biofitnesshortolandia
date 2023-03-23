@@ -1,0 +1,55 @@
+.body-store {
+    background: linear-gradient(to top, #121212f5, #a3a2a2);
+}
+
+.body-store main {
+    margin: 3rem;
+}
+
+.store {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.store div {
+    flex: 1 1 15px;
+    text-align-last: center;
+    margin-bottom: 40px;
+    min-width: 160px;
+}
+
+.store div img {
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+}
+
+.store div p {
+    text-align: center;
+    color: var(--second-text-color);
+}
+
+.store div h1 {
+    font-size: 30px;
+    color: var(--second-text-color);
+}
+
+.store div:hover {
+    transform: scale(1.15);
+}
+
+.store div button {
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+    background: var(--primary-color);
+    font-weight: 600;
+    border-radius: 8px;
+    color: var(--second-text-color);
+}
+
+.store div button:hover {
+    background: var(--second-text-color) !important;
+    color: var(--primary-color) !important;
+}

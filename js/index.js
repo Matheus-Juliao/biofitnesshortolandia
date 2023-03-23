@@ -1,3 +1,6 @@
+let audio = document.getElementById("audio");
+audio.volume = 0.1;
+
 /*Carrossel*/
 let slideIndex = 0;
 showSlides();
@@ -18,9 +21,6 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
-
-let audio = document.getElementById("audio");
-audio.volume = 0.1;
 
 let showEffects = true
 

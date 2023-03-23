@@ -1,3 +1,9 @@
+let linkWhatssap = "https://wa.me/5519982496521";
+
+function callWhatssap() {
+    window.open(linkWhatssap, '_blank');
+}
+
 const myInterval = setInterval(() =>  { 
     let pathname = window.location.pathname
     let navbar = 'active';
