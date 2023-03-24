@@ -1,49 +1,100 @@
 .body-plans {
   background: linear-gradient(to top, #121212, #a3a2a2);
+} 
+
+.card-plans {
+  box-shadow: 0px -5px 25px 25px rgba(0,0,0,0.2);
 }
 
-table {
-  border: 1px solid #ccc;
+.table-plans {
+  text-align: -webkit-center;
+}
+
+.body-plans main {
+  margin: 3rem;
+}
+
+.plans-type th:nth-child(even) { 
+	background:#eff35e;
+}
+
+.plans-type th:nth-child(odd) { 
+	background:#f1df95;
+}
+
+.category-plans p {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.table-plans table {
   border-collapse: collapse;
   margin: 0;
   padding: 0;
   width: 100%;
   table-layout: fixed;
+  max-width: 800px;
 }
 
-table caption {
+.table-plans table caption {
   font-size: 1.5em;
   margin: .5em 0 .75em;
 }
 
-table tr {
-  background-color: #f8f8f8;
-  border: 1px solid #ddd;
+.table-plans table tr {
+  border: 1px solid;
   padding: .35em;
 }
 
-table th,
-table td {
+.table-plans table th,
+.table-plans table td {
   padding: .625em;
   text-align: center;
 }
 
-table th {
+.table-plans table td {
+  border: 1px solid;
+}
+
+.table-plans table th {
   font-size: .85em;
   letter-spacing: .1em;
   text-transform: uppercase;
+  color: rgb(77, 77, 77);
 }
 
-@media screen and (max-width: 600px) {
-  table {
+.table-plans div button {
+  cursor: pointer;
+  max-width: 800px;
+  width: 100%;
+  height: 40px;
+  margin: 20px 0;
+  background: var(--primary-color);
+  font-weight: 700;
+  border-radius: 8px;
+  color: var(--second-text-color);
+}
+
+.table-plans div button:hover {
+  background: var(--second-text-color) !important;
+  color: var(--primary-color) !important;
+}
+
+@media screen and (max-width: 700px) {
+
+  .body-plans {
+    background: linear-gradient(to top, #121212c7, #a3a2a2);
+  } 
+
+  .table-plans table {
     border: 0;
   }
 
-  table caption {
+  .table-plans table caption {
     font-size: 1.3em;
   }
   
-  table thead {
+  .table-plans table thead {
     border: none;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -54,20 +105,20 @@ table th {
     width: 1px;
   }
   
-  table tr {
+  .table-plans table tr {
     border-bottom: 3px solid #ddd;
     display: block;
     margin-bottom: .625em;
   }
   
-  table td {
+  .table-plans table td {
     border-bottom: 1px solid #ddd;
     display: block;
     font-size: .8em;
     text-align: right;
   }
   
-  table td::before {
+  .table-plans table td::before {
     /*
     * aria-label has no advantage, it won't be read inside a table
     content: attr(aria-label);
@@ -78,7 +129,7 @@ table th {
     text-transform: uppercase;
   }
   
-  table td:last-child {
+  .table-plans table td:last-child {
     border-bottom: 0;
   }
 }
@@ -101,7 +152,6 @@ table th {
   margin: 10px auto 70px auto;
   transition: 0.4s;
   min-width: 540px;
-  /* max-width: 650px; */
   margin-bottom: 70px;
   text-align: -webkit-center;
 }
@@ -118,7 +168,6 @@ table th {
 }
 
 .plans-type {
-  /* font-size: 150%; */
   text-align: center;
   color: rgb(77, 77, 77);
   font-weight: bold;
@@ -129,7 +178,6 @@ table th {
 }
 
 .table-month {
-  /* font-size: 150%; */
   text-align: center;
   font-weight: 200;
 }
@@ -151,9 +199,7 @@ table th {
 }
 
 .tipo {
-  /* font-size: 150%; */
   font-weight: bold;
-  /* width: 20%; */
   color: rgb(243, 243, 243);
   padding: 10px;
   text-align: right;
@@ -193,5 +239,5 @@ table th {
   .shadow-table {
     width: 320px;
   }
-} */
+}  */
 
