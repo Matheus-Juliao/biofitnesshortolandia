@@ -22,7 +22,7 @@ const myInterval = setInterval(() =>  {
             case pathname.includes('/supplements-store.html'): active('.supplements-store', navbar);
             break;
 
-            case pathname.includes('/digital-showcase.html'): active('.digital-showcase', navbar);
+            case pathname.includes('/who-we-are.html'): active('.who-we-are', navbar);
             break;
 
             case pathname.includes('/contacts.html'): active('.contacts', navbar);
@@ -45,7 +45,7 @@ const myInterval = setInterval(() =>  {
             case pathname.includes('/supplements-store.html'): active('.supplements-store-r', retractable);
             break;
 
-            case pathname.includes('/digital-showcase.html'): active('.digital-showcase-r', retractable);
+            case pathname.includes('/who-we-are.html'): active('.who-we-are-r', retractable);
             break;
 
             case pathname.includes('/contacts.html'): active('.contacts-r', retractable);
@@ -57,15 +57,8 @@ const myInterval = setInterval(() =>  {
 }, 100);
 
 function active(page, className) {
-    if(className === 'navbar') {
-        if(document.querySelectorAll(page)[0] != undefined) {
-            document.querySelectorAll(page)[0].classList.add(className);
-            clearInterval(myInterval);
-        }
-    } else {
-        if(document.querySelectorAll(page)[0] != undefined) {
-            document.querySelectorAll(page)[0].classList.add(className);
-            clearInterval(myInterval);
-        }   
+    if(document.querySelectorAll(page)[0] != undefined) {
+        document.querySelectorAll(page)[0].classList.add(className);
+        clearInterval(myInterval);
     }
 }

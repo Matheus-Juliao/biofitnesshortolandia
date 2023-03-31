@@ -1,0 +1,28 @@
+.body-who-we-are {
+    background: linear-gradient(to top, #121212, #a3a2a2);
+}
+
+.video-biofitness video {
+    max-width: 820px;
+    max-height: 740px;
+    margin: 2rem;
+}
+
+.video-biofitness {
+    text-align-last: center;
+}
+
+@media screen and (max-width: 718px) {
+    .video-biofitness video {
+        max-width: 420px;
+        max-height: 340px;
+    }
+}
+
+@media screen and (max-width: 446px) {
+    .video-biofitness video {
+        max-width: 280px;
+        max-height: 220px;
+        margin: 1rem;
+    }
+}
