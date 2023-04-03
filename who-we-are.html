@@ -5,9 +5,15 @@
         <header id="retractable-menu" include-html="retractable-menu.html"></header>
         <nav id="navbar" class="navbar" include-html="navbar.html"></nav>
         <main>
-            <div class="video-biofitness">
+            <div id="video-mobile" class="video-biofitness" style="display: none;">
                 <video controls autoplay aria-describedby="Vídeo institucional">
-                    <source src="video/venha-treinar-na-biofitness.mp4" type="video/mp4">
+                    <source src="video/venha-treinar-na-biofitness-mobile.mp4" type="video/mp4"> 
+                    <track>
+                </video>
+            </div>
+            <div id="video" class="video-biofitness" style="display: none;">
+                <video controls autoplay aria-describedby="Vídeo institucional">
+                    <source src="video/venha-treinar-na-biofitness.mp4" type="video/mp4"> 
                     <track>
                 </video>
             </div>
@@ -18,4 +24,5 @@
 
     <script src="js/include-html.js"></script>
     <script src="js/navbar.js"></script>
+    <script src="js/who-we-are.js"></script>
 </html>
