@@ -1,7 +1,4 @@
 const delay = setInterval(() =>  { 
-
-    console.log(window.innerWidth)
-
     let video = document.createElement("video")
     video.controls = true;
     video.autoplay = true;
@@ -16,6 +13,5 @@ const delay = setInterval(() =>  {
     }
 
     clearInterval(delay);
-
 }, 100);
 
