@@ -1,7 +1,12 @@
-if(window.innerWidth > 950) {
-    let video = document.getElementById("video");
-    video.style.display = "block"
+let video = document.createElement("video")
+video.controls = true;
+video.autoplay = true;
+
+let classVideo = document.getElementsByClassName("video-biofitness")[0];
+classVideo.appendChild(video)
+
+if(window.innerWidth > 950) { 
+    video.src = "video/venha-treinar-na-biofitness.mp4";
 } else {
-    let videoMobile = document.getElementById("video-mobile");
-    videoMobile.style.display = "block"
+    video.src = "/video/venha-treinar-na-biofitness-mobile.mp4";
 }
