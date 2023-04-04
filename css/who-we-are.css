@@ -16,6 +16,11 @@
     .video-biofitness video {
         max-width: 920px;
         max-height: 840px;
-        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .video-biofitness video {
+        max-width: 290px;
     }
 }
