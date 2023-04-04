@@ -3,11 +3,19 @@
 }
 
 .video-biofitness video {
-    max-width: 820px;
-    max-height: 740px;
+    max-width: 1320px;
+    max-height: 1240px;
     margin: 2rem;
 }
 
 .video-biofitness {
     text-align-last: center;
+}
+
+@media screen and (max-width: 1400px) {
+    .video-biofitness video {
+        max-width: 920px;
+        max-height: 840px;
+        margin: 2rem;
+    }
 }
